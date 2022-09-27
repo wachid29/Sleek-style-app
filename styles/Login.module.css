@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    border: none;
+    width: 320px;
+   
+}
+
+.card h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #222222;
+}
+
+.card p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+}
+
+.customerBtn{
+    box-sizing: border-box;
+    background: #DB3022;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+    height: 30px;
+    width: 100px;
+}
+
+.sellerBtn{
+    box-sizing: border-box;
+    border: 1px solid #9B9B9B;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 0px 4px 4px 0px;
+    height: 30px;
+    width: 100px;
+}
