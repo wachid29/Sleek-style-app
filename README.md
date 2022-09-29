@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/wachid29/mockup-web-app">
-    <img src="https://res.cloudinary.com/dbpfwb5ok/image/upload/v1659148545/portofolio/recipe/2_kpnvj7.png" alt="Logo" width="150px">
+    <img src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664435567/profile-user/meiwzely7aqlvtdgwehj.png" alt="Logo" width="150px">
   </a>
 
   <h3 align="center">MockUp Web</h3>
@@ -113,54 +113,20 @@ npm install
 <table>
  
   <tr>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242324/profile-user/u5kvhshnrwgpwkyqsyps.png" alt="login" width=100%></td>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242458/profile-user/vilazmdgn6lrig9krdxd.png" alt="register" width=100%/></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664435586/profile-user/qptozagnftglsmkp1cnb.png" alt="login" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664435599/profile-user/d4jpbm6hpgc9x8bynvze.png" alt="register" width=100%/></td>
   </tr>
    <tr>
     <td>Login Page</td>
     <td>Register Page</td>
   </tr>
   <tr>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242196/profile-user/ru9uognhacfuciyzdui1.png" alt="home" width=100%></td>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242472/profile-user/qwigxfujkph7im3iwrgs.png" alt="search" width=100%/></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664435679/profile-user/appcoxmtetljuhxmcfan.jpg" alt="home" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664435708/profile-user/krqrx80djoylju5bdsea.jpg" alt="detailProduct" width=100%/></td>
   </tr>
   <tr>
     <td>Home</td>
-    <td>Search</td>
-  </tr>
-    <tr>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242131/profile-user/nmcxtlnt8ysvctmzqxqk.png" alt="add" width=100%></td>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242162/profile-user/dghg2jbm7lz78jd8nk3c.png" alt="edit" width=100%/></td>
-  </tr>
-  <tr>
-    <td>Add Recipe</td>
-    <td>Edit Recipe</td>
-  </tr>
-  </tr>
-    <tr>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242151/profile-user/pclzbjbj7nvizqmnc4il.png" alt="detail recipe" width=100%></td>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242419/profile-user/sin6ox4uyusbzc4wytii.png" alt="popular menu" width=100%/></td>
-  </tr>
-  <tr>
-    <td>Detail Recipe</td>
-    <td>Popular Menu</td>
-  </tr>
-  </tr>
-    <tr>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242434/profile-user/ormkbnpksnpwr7r1idfv.png" alt="profile" width=100%></td>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242444/profile-user/wlar0fvbmc37r8d0sukn.png" alt="edit profile" width=100%/></td>
-  </tr>
-  <tr>
-    <td>Profile</td>
-    <td>Edit Profile</td>
-  </tr>
-    </tr>
-    <tr>
-    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242397/profile-user/i0zhsmojaqwsglfanlvl.png" alt="my recipe" width=100%></td>
-  </tr>
-  <tr>
-    <td>My Recipe</td>
-    
+    <td>detail Product</td>
   </tr>
 </table>
       
