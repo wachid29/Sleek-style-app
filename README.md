@@ -7,7 +7,7 @@
     <img src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664435567/profile-user/meiwzely7aqlvtdgwehj.png" alt="Logo" width="150px">
   </a>
 
-  <h3 align="center">MockUp Web</h3>
+  <h3 align="center">Sleek Style</h3>
 
   <p align="center">
     Convenient Place to fullfil your Fashion Needs
@@ -15,9 +15,9 @@
     <br />
     <a href=https://mockup-web-app-wachid.vercel.app/>View Demo</a>
     ·
-    <a href="https://github.com/wachid29/mockup-web-app/issues">Report Bug</a>
+    <a href="https://github.com/wachid29/sleek-style-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/wachid29/mockup-web-app/issues">Request Feature</a>
+    <a href="https://github.com/wachid29/sleek-style-app/issues">Request Feature</a>
   </p>
 </div>
 
@@ -54,7 +54,8 @@
 
 ## About The Project
 
-**Mama Recipe** Mama Recipe is a web application that has the main feature where users can share their recipes in the form of video tutorials to make it easier for visitors to learn the recipe they are looking for. This website is developed with PostgreSql, Express JS, Next JS and Node JS technologies
+**Mama Recipe** Sleek Style is a web application that has the main feature where users can look for various needs in terms of their fashion, 
+there are various categories that make it easier to find the amazing suitable style. This website is developed with  Next JS and Node JS technologies
 
 ### Built With
 
@@ -85,13 +86,13 @@ If you want to run this project locally, I recommend you to configure the [back-
 - Clone the repo
 
 ```
-git clone https://github.com/wachid29/mockup-web-app.git
+git clone https://github.com/wachid29/sleek-style-app.git
 ```
 
 - Go To Folder Repo
 
 ```
-cd mockup-web-app
+cd sleek-style-app
 ```
 
 - Install Module
