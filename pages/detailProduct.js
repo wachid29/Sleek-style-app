@@ -225,13 +225,14 @@ function DetailProduct() {
                 </h2>
                 <div className="d-flex gap-1">
                   {[...new Array(5)].map((key) => (
-                    <Image
-                      src={`/images/star.png`}
-                      width=" 22px"
-                      height="22px"
-                      alt="contain"
-                      key={key}
-                    />
+                    <div key={key}>
+                      <Image
+                        src={`/images/star.png`}
+                        width=" 22px"
+                        height="22px"
+                        alt="contain"
+                      />
+                    </div>
                   ))}
                 </div>
               </div>
