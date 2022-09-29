@@ -142,8 +142,11 @@ function DetailProduct() {
                 className="d-flex justify-content-between w-100 mb-5"
                 style={{ paddingRight: "230px" }}
               >
-                {select.map((item) => (
-                  <div className="d-flex justity-content-between gap-1">
+                {select.map((item, key) => (
+                  <div
+                    className="d-flex justity-content-between gap-1"
+                    key={key}
+                  >
                     <div
                       className="card d-flex align-items-center justify-content-center "
                       style={{
@@ -220,16 +223,16 @@ function DetailProduct() {
                   5.0
                   <span style={{ fontSize: "20px" }}>/10</span>
                 </h2>
-                <div className="d-flex gap-1">
-                  {[...new Array(5)].map((item, key) => (
+                {[...new Array(5)].map((key) => (
+                  <div className="d-flex gap-1" key={key}>
                     <Image
                       src={`/images/star.png`}
                       width=" 22px"
                       height="22px"
                       alt="contain"
                     />
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
               <div className="col-3">
                 <div className="d-flex align-items-center gap-2">
@@ -248,8 +251,8 @@ function DetailProduct() {
                     <div>4</div>
                   </div>
                 </div>
-                {star.map((item) => (
-                  <div className="d-flex align-items-center gap-2">
+                {star.map((item, key) => (
+                  <div className="d-flex align-items-center gap-2" key={key}>
                     <Image
                       src={`/images/star.png`}
                       width=" 22px"
@@ -272,10 +275,10 @@ function DetailProduct() {
             <h2>You can also like this</h2>
             <h5>You’ve never seen it before!</h5>
           </div>
-          {[...new Array(2)].map((item, key) => (
+          {[...new Array(2)].map((key) => (
             <div className="row" key={key}>
               <div className="col-1"></div>
-              {[...new Array(5)].map((item, key) => (
+              {[...new Array(5)].map((key) => (
                 <div className="col-2" key={key}>
                   <Image
                     src={`/images/contain.png`}
