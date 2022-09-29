@@ -223,16 +223,17 @@ function DetailProduct() {
                   5.0
                   <span style={{ fontSize: "20px" }}>/10</span>
                 </h2>
-                {[...new Array(5)].map((key) => (
-                  <div className="d-flex gap-1" key={key}>
+                <div className="d-flex gap-1">
+                  {[...new Array(5)].map((key) => (
                     <Image
                       src={`/images/star.png`}
                       width=" 22px"
                       height="22px"
                       alt="contain"
+                      key={key}
                     />
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
               <div className="col-3">
                 <div className="d-flex align-items-center gap-2">
