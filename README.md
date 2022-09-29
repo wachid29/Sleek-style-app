@@ -13,7 +13,7 @@
     Convenient Place to fullfil your Fashion Needs
     <br />
     <br />
-    <a href=https://mockup-web-app-wachid.vercel.app/>View Demo</a>
+    <a href=https://sleek-style-app.vercel.app/>View Demo</a>
     ·
     <a href="https://github.com/wachid29/sleek-style-app/issues">Report Bug</a>
     ·
