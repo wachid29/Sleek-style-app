@@ -1,34 +1,193 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/wachid29/mockup-web-app">
+    <img src="https://res.cloudinary.com/dbpfwb5ok/image/upload/v1659148545/portofolio/recipe/2_kpnvj7.png" alt="Logo" width="150px">
+  </a>
+
+  <h3 align="center">MockUp Web</h3>
+
+  <p align="center">
+    Convenient Place to fullfil your Fashion Needs
+    <br />
+    <br />
+    <a href=https://mockup-web-app-wachid.vercel.app/>View Demo</a>
+    ·
+    <a href="https://github.com/wachid29/mockup-web-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/wachid29/mockup-web-app/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup-env-example">Setup .env example</a></li>
+      </ul>
+    </li>
+    <li><a href="#screenshoots">Screenshots</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#related-project">Related Project</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+**Mama Recipe** Mama Recipe is a web application that has the main feature where users can share their recipes in the form of video tutorials to make it easier for visitors to learn the recipe they are looking for. This website is developed with PostgreSql, Express JS, Next JS and Node JS technologies
+
+### Built With
+
+This app was built with some technologies below:
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://www.javascript.com/)
+- [Next JS](https://nextjs.org/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
+Before going to the installation stage there are some software that must be installed first.
+
+- [NodeJs](https://nodejs.org/en/download/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Installation
+
+If you want to run this project locally, I recommend you to configure the [back-end](https://github.com/fandipras7/foodRecipeApi) first before configuring this repo front-end.
+
+- Clone the repo
+
+```
+git clone https://github.com/wachid29/mockup-web-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Go To Folder Repo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+cd mockup-web-app
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Install Module
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm install
+```
 
-## Learn More
+- <a href="#setup-env">Setup .env</a>
+- Type ` npm run dev` To Start Website
+- Type ` npm run start` To Start Production
 
-To learn more about Next.js, take a look at the following resources:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshoots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="center" display=flex>
+   
+<table>
+ 
+  <tr>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242324/profile-user/u5kvhshnrwgpwkyqsyps.png" alt="login" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242458/profile-user/vilazmdgn6lrig9krdxd.png" alt="register" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Login Page</td>
+    <td>Register Page</td>
+  </tr>
+  <tr>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242196/profile-user/ru9uognhacfuciyzdui1.png" alt="home" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242472/profile-user/qwigxfujkph7im3iwrgs.png" alt="search" width=100%/></td>
+  </tr>
+  <tr>
+    <td>Home</td>
+    <td>Search</td>
+  </tr>
+    <tr>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242131/profile-user/nmcxtlnt8ysvctmzqxqk.png" alt="add" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242162/profile-user/dghg2jbm7lz78jd8nk3c.png" alt="edit" width=100%/></td>
+  </tr>
+  <tr>
+    <td>Add Recipe</td>
+    <td>Edit Recipe</td>
+  </tr>
+  </tr>
+    <tr>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242151/profile-user/pclzbjbj7nvizqmnc4il.png" alt="detail recipe" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242419/profile-user/sin6ox4uyusbzc4wytii.png" alt="popular menu" width=100%/></td>
+  </tr>
+  <tr>
+    <td>Detail Recipe</td>
+    <td>Popular Menu</td>
+  </tr>
+  </tr>
+    <tr>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242434/profile-user/ormkbnpksnpwr7r1idfv.png" alt="profile" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242444/profile-user/wlar0fvbmc37r8d0sukn.png" alt="edit profile" width=100%/></td>
+  </tr>
+  <tr>
+    <td>Profile</td>
+    <td>Edit Profile</td>
+  </tr>
+    </tr>
+    <tr>
+    <td><image src="https://res.cloudinary.com/dhdngrjzr/image/upload/v1664242397/profile-user/i0zhsmojaqwsglfanlvl.png" alt="my recipe" width=100%></td>
+  </tr>
+  <tr>
+    <td>My Recipe</td>
+    
+  </tr>
+</table>
+      
+</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contact
+
+My Email : wachidnurafif29@gmail.com
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+
+Distributed under the [MIT](/LICENSE) License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
