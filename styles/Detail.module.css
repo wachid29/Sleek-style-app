@@ -1,0 +1,81 @@
+.main {
+    height: 100vh;
+}
+
+.navbar {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+
+.navbar input {
+    border-radius: 25px;
+    height: 25px;
+    margin-top: 5px;
+    border: 1px solid #8E8E93;
+
+}
+
+.navbar button {
+    border-radius: 25px;
+    height: 35px;
+    width: 100%;
+    padding-top: -20px;
+}
+
+.content {
+    background: #E5E5E5;
+    height: 280vh
+}
+
+.content h5 {
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    color: #9B9B9B;
+
+}
+
+.content h3{
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    color: #222222;
+}
+
+.color{
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+
+.button1 button{
+    border-radius: 25px;
+    background-color: #E5E5E5;
+    margin-bottom: 25px;
+    height: 48px;
+    width: 160px;
+}
+
+.button2 button{
+    border-radius: 25px;
+    height: 48px;
+    width: 343px;
+        
+}
+
+.content h4 {
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #222222;
+}
+
+.content h2 {
+    font-size: 34px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #222222;
+}
