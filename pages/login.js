@@ -72,7 +72,7 @@ function Login() {
             LOGIN
           </button>
           <p>
-            Dont have a Tokopedia account?{" "}
+            Dont have a Tokopedia account?{""}
             <span style={{ color: "#DB3022" }}>Register</span>
           </p>
         </div>
